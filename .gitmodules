@@ -1,0 +1,13 @@
+[submodule "camera/ipu6-drivers"]
+	path = camera/ipu6-drivers
+	url = https://github.com/intel/ipu6-drivers
+	branch = iotg_ipu6
+[submodule "camera/userlib/icamerasrc"]
+	path = camera/userlib/icamerasrc
+	url = https://github.com/intel/icamerasrc.git
+[submodule "camera/userlib/ipu6-camera-bins"]
+	path = camera/userlib/ipu6-camera-bins
+	url = https://github.com/intel/ipu6-camera-bins.git
+[submodule "camera/userlib/ipu6-camera-hal"]
+	path = camera/userlib/ipu6-camera-hal
+	url = https://github.com/intel/ipu6-camera-hal.git
