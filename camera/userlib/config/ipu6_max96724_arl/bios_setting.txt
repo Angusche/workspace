@@ -1,0 +1,100 @@
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒Ŀ
+▒                                    MIPI Camera Configuration
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+
+   CVF/CVS Support                  <Disabled>                        Link options
+   Control Logic 1                  <Disabled>
+   Control Logic 2                  <Disabled>
+   Control Logic 3                  <Disabled>
+   Control Logic 4                  <Disabled>
+   Camera1                          <Enabled>
+ > Link options
+   Camera2                          <Enabled>
+ > Link options
+   Camera3                          <Disabled>
+   Camera4                          <Disabled>
+   Use GPP_F6 as HDMI_WAKE          <Disabled>
+
+
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒Ŀ
+▒                                          Link0 options
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+
+   Camera1                                                            Sensor Model
+   Sensor Model                     <User Custom>
+   Custom HID                       INTC031M
+   Lanes Clock division             <4 4 2 2>
+   CRD Version                      <CRD-D>
+   GPIO control                     <No Control Logic>
+   Camera position                  <Back>
+   Flash Support                    <Driver default>
+   Privacy LED                      <Driver default>
+   Rotation                         <90>
+   PPR Value                        [4]
+   PPR Unit                         [4]
+   Camera module name               CRD1
+   MIPI port                        [0]
+   LaneUsed                         <x4>
+   MCLK                             [19200000]
+   EEPROM Type                      <ROM_NONE>
+   VCM Type                         <VCM_NONE>
+   Number of I2C Components         [3]
+   I2C Channel                      <I2C1>
+     Device 0
+     I2C Address                    [27]
+     Device Type                    <Sensor>
+     Device 1
+     I2C Address                    [44]
+     Device Type                    <Sensor>
+     Device 2
+     I2C Address                    [54]
+     Device Type                    <Sensor>
+   Customize Device ID List
+     Customize Device1 ID Number    [17]
+     Customize Device2 ID Number    [18]
+     Customize Device3 ID Number    [19]
+   Flash Driver Selection           <Disabled>
+
+
+
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒Ŀ
+▒                                          Link1 options
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+
+   Camera2                                                            Sensor Model
+   Sensor Model                     <User Custom>
+   Custom HID                       INTC031M
+   Lanes Clock division             <4 4 2 2>
+   CRD Version                      <CRD-D>
+   GPIO control                     <No Control Logic>
+   Camera position                  <Back>
+   Flash Support                    <Driver default>
+   Privacy LED                      <Driver default>
+   Rotation                         <180>
+   Voltage Rail                     <3 voltage rail>
+   PPR Value                        [4]
+   PPR Unit                         [4]
+   Camera module name               CRD2
+   MIPI port                        [4]
+   LaneUsed                         <x4>
+   MCLK                             [19200000]
+   EEPROM Type                      <ROM_NONE>
+   VCM Type                         <VCM_NONE>
+   Number of I2C Components         [3]
+   I2C Channel                      <I2C0>
+     Device 0
+     I2C Address                    [27]
+     Device Type                    <Sensor>
+     Device 1
+     I2C Address                    [44]
+     Device Type                    <Sensor>
+     Device 2
+     I2C Address                    [54]
+     Device Type                    <Sensor>
+   Customize Device ID List
+     Customize Device1 ID Number    [17]
+     Customize Device2 ID Number    [18]
+     Customize Device3 ID Number    [19]
+   Flash Driver Selection           <Disabled>
+
+
