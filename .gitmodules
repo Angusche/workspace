@@ -23,3 +23,6 @@
 [submodule "camera/ipu7-drivers"]
 	path = camera/drivers/ipu7-drivers
 	url = https://github.com/intel/ipu7-drivers
+[submodule "camera/drivers/Intel-MIPI-CSI-Camera-Reference-Driver"]
+	path = camera/drivers/Intel-MIPI-CSI-Camera-Reference-Driver
+	url = https://github.com/intel/Intel-MIPI-CSI-Camera-Reference-Driver
