@@ -1,5 +1,5 @@
 [submodule "camera/ipu6-drivers"]
-	path = camera/ipu6-drivers
+	path = camera/drivers/ipu6-drivers
 	url = https://github.com/intel/ipu6-drivers
 	branch = iotg_ipu6
 [submodule "camera/userlib/icamerasrc"]
@@ -21,5 +21,5 @@
 	path = camera/userlib/ipu7/ipu7-camera-bins
 	url = https://github.com/intel/ipu7-camera-bins
 [submodule "camera/ipu7-drivers"]
-	path = camera/ipu7-drivers
+	path = camera/drivers/ipu7-drivers
 	url = https://github.com/intel/ipu7-drivers
