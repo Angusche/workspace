@@ -20,11 +20,15 @@ This is mainly a “workspace” containing many independent projects (e.g., cam
 ## IPU7.5
 
 1. ipu7-drivers<br>
-   1.1 tag : 20251226_1140_191_PTL_PV_IoT <br>
+   1.1 tag: 20251226_1140_191_PTL_PV_IoT <br>
+   1.2 tag: 20260406_1900_297 : IPU75 MR1 <br>
 2. ipu7-camera-bins<br>
    2.1 tag: 20251226_1140_191_PTL_PV_IoT <br>
+   2.2 tag: 20260406_1900_297 : IPU75 MR1"<br>
 3. ipu7-camera-hal<br>
    3.1 tag: 20251226_1140_191_PTL_PV_IoT <br>
+   3.2 tag: 20260406_1900_297 : IPU75 MR1<br>
 4. icamerasrc<br>
-   4.1 tag:20251226_1140_191_PTL_PV_IoT <br>
+   4.1 tag: 20251226_1140_191_PTL_PV_IoT <br>
+   4.2 tag: 20260406_1900_297 : IPU75 MR1<br>
 
